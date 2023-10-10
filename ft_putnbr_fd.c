@@ -32,7 +32,7 @@ void	ft_putnbr_fd(int n, int fd)
 	ft_putchar(i % 10 + '0', fd);
 }
 
-int main()
+/*int main()
 {
     int fd = 1; // Usar el descriptor de archivo 1 (STDOUT) para imprimir en la consola
     int numero = 12345; // El número que deseas imprimir
@@ -40,4 +40,4 @@ int main()
     ft_putnbr_fd(numero, fd); // Llamar a la función para imprimir el número
 
     return 0;
-}
+}*/

@@ -41,7 +41,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 	}
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 
 // Sample function to print the index and character
 void print_index_and_char(unsigned int index, char *c) {
@@ -52,4 +52,4 @@ int main() {
     char str[] = "Hello, World!";
     ft_striteri(str, print_index_and_char);
     return 0;
-}
+}*/

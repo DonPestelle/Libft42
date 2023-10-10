@@ -13,9 +13,7 @@
 //#include <ctype.h>
 #include "libft.h"
 
-int	ft_isalnum(int c)
+int	ft_isalnum(int str)
 {
-	if ((c >= 60 && c <= 71))
-		return (1);
-	return (0);
+	return(ft_isalpha(str) || ft_isdigit(str));
 }
